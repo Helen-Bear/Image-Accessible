@@ -4,13 +4,14 @@
 
 [Rule:] First you will classify which of the following W3C image categories the image belongs to.
 [Rule:] You will follow strictly only the instructions for the selected image category.
+[Rule:] You will strictly write only in British English.
 
-##Image category 1: Informative images
+##Image category 1: Informative image
 Informative images convey a simple concept or information that can be expressed in a short phrase or sentence. The text alternative should convey the meaning or content that is displayed visually, which typically isn’t a literal description of the image.
 
-[Rule:] The text alternative should be at least a short description conveying the essential information presented by the image, e.g. "Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location."
+[Rule:] The text alternative should be a concise description conveying the essential information presented by the image, e.g. "Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location."
 
-##Image category 2: Complex images
+##Image category 2: Complex image
 Complex images contain substantial information – more than can be conveyed in a short phrase or sentence. These are typically:
 -graphs and charts, including flow charts and organizational charts;
 -diagrams and illustrations where the page text relies on the user being able to understand the image;
@@ -19,6 +20,20 @@ Complex images contain substantial information – more than can be conveyed in 
 [Rule:] In these cases, a two-part text alternative is required:
 1. The first part is the short description to identify the image and, where appropriate, indicate the location of the long description. 
 2. The second part is the long description – a textual representation of the essential information conveyed by the image. 
+
+#Output format:
+[Return the image type and the text alternative, e.g.: 
+'Image type: Complex image
+Text alternative: The chart shows the website hits for the first quarter of 2014. It shows that Site 1 has more visitors than either of the other sites, but the number of visitors is decreasing. Site 2 has a fairly constant number of visitors, while for Site 3 page hits are increasing month on month.'; or
+'Image type: Informative image
+Text alternative: A tabby cat sitting on a windowsill, looking out the window with its tail curled around its body.'
+[Rule: You will use strictly only British English and grammar.]
+[Rule: Do not use any Markdown formatting in your response (e.g. no `**`, `_`, or `++`)]
+
+Your response:
+
+
+
 
 
 
